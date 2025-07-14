@@ -16,5 +16,5 @@ train_configs={
      "input_path": 'Z:\ZQY\Hainan\Hainan_classification\HA_80_20_uniform',
      "output_path":'./logs',
 
-     "seed": 56,          # 固定随机种子
+     "seed": 2026,          # 固定随机种子
 }
