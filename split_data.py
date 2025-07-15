@@ -15,7 +15,7 @@ def main():
     split_rate_train = 1 - (split_rate_val + split_rate_test)
 
     cwd = os.getcwd()
-    origin_flower_path = os.path.join("\HA419-IonogramSet-202505\2002_2015_classification")
+    origin_flower_path = os.path.join("\HA419-IonogramSet-202505\image_new_noise_3w_uniform")
     assert os.path.exists(origin_flower_path), "path '{}' does not exist.".format(origin_flower_path)
 
     flower_class = [cla for cla in os.listdir(origin_flower_path) if os.path.isdir(os.path.join(origin_flower_path, cla))]
