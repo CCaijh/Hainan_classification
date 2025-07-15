@@ -15,7 +15,7 @@ def main():
     split_rate_train = 1 - (split_rate_val + split_rate_test)
 
     cwd = os.getcwd()
-    origin_flower_path = os.path.join(".\Hainan_classification\image_new_noise_3w_uniform")
+    origin_flower_path = os.path.join("\HA419-IonogramSet-202505\HA_80_20_uniform")
     assert os.path.exists(origin_flower_path), "path '{}' does not exist.".format(origin_flower_path)
 
     flower_class = [cla for cla in os.listdir(origin_flower_path) if os.path.isdir(os.path.join(origin_flower_path, cla))]
@@ -39,7 +39,7 @@ def main():
         cla_path = os.path.join(origin_flower_path, cla)
         images = os.listdir(cla_path)
         num = len(images)
-        random.shuffle(images)  # 随机打乱数据
+        random.shuffle(images)  
 
         train_end = int(num * split_rate_train)
         val_end = int(num * (split_rate_train + split_rate_val))
