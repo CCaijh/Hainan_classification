@@ -15,22 +15,22 @@ def main():
     split_rate_train = 1 - (split_rate_val + split_rate_test)
 
     cwd = os.getcwd()
-    origin_flower_path = os.path.join("\HA419-IonogramSet-202505\HA_80_20_uniform")
+    origin_flower_path = os.path.join("\HA419-IonogramSet-202505\2002_2015_classification")
     assert os.path.exists(origin_flower_path), "path '{}' does not exist.".format(origin_flower_path)
 
     flower_class = [cla for cla in os.listdir(origin_flower_path) if os.path.isdir(os.path.join(origin_flower_path, cla))]
 
-    train_root = os.path.join(".\Hainan_classification", "HA_80_20_uniform/train")
+    train_root = os.path.join("\HA419-IonogramSet-202505", "HA_80_20_uniform/train")
     mk_file(train_root)
     for cla in flower_class:
         mk_file(os.path.join(train_root, cla))
 
-    val_root = os.path.join(".\Hainan_classification", "HA_80_20_uniform/val")
+    val_root = os.path.join("\HA419-IonogramSet-202505", "HA_80_20_uniform/val")
     mk_file(val_root)
     for cla in flower_class:
         mk_file(os.path.join(val_root, cla))
 
-    test_root = os.path.join(".\Hainan_classification", "HA_80_20_uniform/test")
+    test_root = os.path.join("\HA419-IonogramSet-202505", "HA_80_20_uniform/test")
     mk_file(test_root)
     for cla in flower_class:
         mk_file(os.path.join(test_root, cla))
