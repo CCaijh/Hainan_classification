@@ -31,7 +31,7 @@ def set_seed(seed: int):
     cudnn.deterministic = True
     cudnn.benchmark = False
 
-    # +++ 新增关键设置 +++
+
     torch.use_deterministic_algorithms(True, warn_only=True)
     os.environ["CUBLAS_WORKSPACE_CONFIG"] = ":4096:8"
 
