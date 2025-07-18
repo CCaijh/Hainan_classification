@@ -1,5 +1,4 @@
 # Hainan_classification
-# SA-ResNet50 Spectrogram-Classification Toolkit
 
 This repository contains everything you need to **train, evaluate, and analyse** a Self-Attention ResNet-50 (SA-ResNet50) model for image–classification tasks—originally designed for frequency-spectrogram data from **2016**.  
 It bundles reproducible configuration files, data-handling utilities, and helper scripts to visualise both learning-rate schedules and loss curves.
@@ -111,6 +110,6 @@ Distributed under the MIT License.
 See LICENSE for more information.
 
 11. Acknowledgements
-This project was initially developed at [Your Lab / Organisation].
+This project was initially developed at Communication University of China.
 We thank the annotators who produced 2016_Ground_Truth.txt and the open-source community for their invaluable contributions.
 
