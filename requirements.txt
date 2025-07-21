@@ -1,0 +1,117 @@
+absl-py==1.3.0
+accelerate==1.0.1
+aiohappyeyeballs==2.4.4
+aiohttp==3.10.11
+aiosignal==1.3.1
+async-timeout==5.0.1
+attrs==25.3.0
+av==10.0.0
+brotlipy==0.7.0
+cachetools==5.2.0
+certifi @ file:///home/conda/feedstock_root/build_artifacts/certifi_1700303426725/work/certifi
+cffi @ file:///C:/Windows/Temp/abs_6808y9x40v/croots/recipe/cffi_1659598653989/work
+charset-normalizer @ file:///tmp/build/80754af9/charset-normalizer_1630003229654/work
+colorama==0.4.6
+conda-pack @ file:///home/conda/feedstock_root/build_artifacts/conda-pack_1691435290924/work
+ConfigArgParse==1.7
+contourpy==1.0.5
+cryptography @ file:///C:/ci/cryptography_1652101772384/work
+cycler==0.11.0
+datasets==3.1.0
+decorator==4.4.2
+dill==0.3.8
+einops==0.5.0
+filelock==3.16.1
+flatbuffers==1.12
+fonttools==4.38.0
+frozenlist==1.5.0
+fsspec==2024.9.0
+gekko==1.3.0
+google-auth==2.15.0
+google-auth-oauthlib==0.4.6
+grpcio==1.51.1
+huggingface-hub==0.32.3
+idna @ file:///C:/b/abs_bdhbebrioa/croot/idna_1666125572046/work
+imageio==2.22.2
+imageio-ffmpeg==0.4.8
+importlib-metadata==5.1.0
+Jinja2==3.1.6
+joblib==1.4.2
+kiwisolver==1.4.4
+kornia==0.6.12
+lpips==0.1.4
+Markdown==3.4.1
+MarkupSafe==2.1.1
+matplotlib==3.6.1
+mkl-fft==1.3.1
+mkl-random @ file:///C:/ci/mkl_random_1626186184278/work
+mkl-service==2.4.0
+moviepy==1.0.3
+mpmath==1.3.0
+multidict==6.1.0
+multiprocess==0.70.16
+networkx==2.8.7
+numpy==1.24.1
+nvidia-ml-py3==7.352.0
+oauthlib==3.2.2
+opencv-python==4.6.0.66
+packaging==21.3
+pandas==2.0.3
+peft==0.13.2
+Pillow==9.2.0
+plyfile==1.0.1
+proglog==0.1.10
+propcache==0.2.0
+protobuf==3.20.3
+psutil==5.9.5
+pyarrow==17.0.0
+pyasn1==0.5.1
+pyasn1-modules==0.2.8
+pycparser @ file:///tmp/build/80754af9/pycparser_1636541352034/work
+pyglet==1.5.27
+pyparsing==3.0.9
+PyQt5==5.15.7
+PyQt5-Qt5==5.15.2
+PyQt5-sip==12.11.0
+PySocks @ file:///C:/ci/pysocks_1605287845585/work
+python-dateutil==2.8.2
+pytz==2024.2
+PyWavelets==1.4.1
+PyYAML==6.0.2
+regex==2024.11.6
+requests==2.32.3
+requests-oauthlib==1.3.1
+rouge==1.0.1
+rsa==4.9
+safetensors==0.5.3
+scikit-image==0.16.2
+scikit-learn==1.3.2
+scipy==1.9.3
+sentencepiece==0.2.0
+six @ file:///tmp/build/80754af9/six_1644875935023/work
+sympy==1.13.3
+tensorboard==2.11.0
+tensorboard-data-server==0.6.1
+tensorboard-plugin-wit==1.8.1
+tensorboardX==2.5.1
+tensorflow-estimator==2.4.0
+termcolor==1.1.0
+threadpoolctl==3.5.0
+tifffile==2022.10.10
+tokenizers==0.20.3
+torch==2.1.0+cu121
+torchaudio==2.1.0+cu121
+torchvision==0.16.0+cu121
+tqdm==4.67.1
+transformers==4.46.3
+trimesh==3.22.3
+typing_extensions==4.13.2
+tzdata==2024.2
+urllib3==1.26.20
+Werkzeug==2.2.2
+win-inet-pton @ file:///C:/ci/win_inet_pton_1605306167264/work
+wincertstore==0.2
+wrapt==1.12.1
+xxhash==3.5.0
+yarl==1.15.2
+zipp==3.17.0
